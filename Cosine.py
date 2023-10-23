@@ -7,12 +7,12 @@ import matplotlib.pyplot as plt
 import numpy as np
 from math import pi
 
-N = 100
-A = 0
-B = 2*3.1416
+#N = 100
+#A = 0
+#B = 2*3.1416
 
-dx = (B-A)/N
-x_a = A
+#dx = (B-A)/N
+#x_a = A
 
 #for i in range(N):
 #    print(x_a)
