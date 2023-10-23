@@ -10,7 +10,7 @@ from math import pi
 #N = 100
 #A = 0
 #B = 2*3.1416
-
+# Comn
 #dx = (B-A)/N
 #x_a = A
 
