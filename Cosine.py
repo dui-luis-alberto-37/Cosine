@@ -14,6 +14,7 @@ from math import pi
 #dx = (B-A)/N
 #x_a = A
 
+# d
 #for i in range(N):
 #    print(x_a)
 #    x_a = x_a + dx*i
