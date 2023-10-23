@@ -4,17 +4,24 @@
 # GNU/GPL
 
 import matplotlib.pyplot as plt
-from math import cos
-x = range(0,1000000,31416)
-x = [i//10000 for i in x]
-y = [cos(i) for i in x]
-x_a = 0
-dx = 3.1416
-for i in range(8):
-    print(x_a)
-    x_a = x_a + dx*i
-    
+import numpy as np
+from math import pi
 
-# plt.plot(x,y)
-# plt.ylabel('Cosine')
-# plt.show()
+N = 100
+A = 0
+B = 2*3.1416
+
+dx = (B-A)/N
+x_a = A
+
+#for i in range(N):
+#    print(x_a)
+#    x_a = x_a + dx*i
+    
+x = np.arange(-pi,pi,0.00001)
+y = np.cos(x)
+y_2 = np.sin(x)
+
+plt.plot(x,y,'-m',x,y_2,'-r')
+plt.ylabel('Cosine')
+plt.show()
