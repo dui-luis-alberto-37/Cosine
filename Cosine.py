@@ -26,3 +26,5 @@ y_2 = np.sin(x)
 plt.plot(x,y,'-m',x,y_2,'-r')
 plt.ylabel('Cosine')
 plt.show()
+#DD
+#addddd
